@@ -27,45 +27,41 @@
         </div>
     </nav>
     <div class="container-fluid">
-    		<div class="row">
-    			<div class="col">
+            <div class="row">
+                <div class="col">
 <?php
 
 echo '<h2>Przetwarzanie formularza</h2>';
 print_r($_POST);
 
-//$login = trim($_POST['login'])
-//$email = trim($_POST['email'])
+// $login = trim($_POST['login']);
+// $email = trim($_POST['email']);
 
 foreach ($_POST as $k => $v) {
-    echo $k.' '.$v.'<br>';
-    ${$k} = htmlspecialchars(trim($v));
+    echo $k.' '.$V.'<br>';
+    ${$k} = htmlspecialchars(trim($V));
 }
-    if (strlen($v) > 15)
-        $v = substr($v, 0, 14);
+
+if (strlen($V) > 15)
+        $V = substr($V, 0, 14);
 
 if (isset($login)) {
-	echo '<p>Witaj '.$login.'</p>';
-    echo '<p>Twoje hasło: ' .$haslo.'</p>';
+    echo '<p>Witaj '.$login.'</p>';
+    echo '<p>Twoje hasło: '.$haslo.'</p>';
 } else
-	echo '<p>Zaloguj się!</p>';
+    echo '<p>Zaloguj się!</p>';
 
 ?>
 
-    			</div>
-    		</div>
+                </div>
+            </div>
         <div class="row">
             <div class="col-3">&nbsp;</div>
             <div class="col">
                 <h1 class="text-center">
                     Formularz<small>– w Bootstrapie</small>
                 </h1>
-                <p>
-
-                    Tag akapitu: &it;p&gt;&lt;/p&gt;
-
-
-                </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp; Tag akapitu: &lt;p&gt;&lt;/p&gt;</p>
                 <hr>
                 <form action="formularz.php" method="POST" name="dane" id="dane">
                     <input type="hidden" name="id_user" value="10">
@@ -79,7 +75,7 @@ if (isset($login)) {
                     </div>
                     <div class="form-group">
                         <label for="haslo">Hasło:</label>
-                        <input type="password" name="haslo" id="haslo" class="form-control" maxlength="15">
+                        <input type="password" name="haslo" id="haslo" class="form-control">
                     </div>
                     <label>Wybierz płeć:</label>
                     <div class="form-check">
