@@ -19,9 +19,9 @@ DROP TABLE IF EXISTS users;
 CREATE TABLE users (
 	id INTEGER PRIMARY KEY AUTOINCREMENT,
 	login CHAR(20) NOT NULL,
-	haslo CHAR(40) NOT NULL,
-	email VARCHAR(50) NOT NULL,
-	data DATE 0
+	haslo CHAR(40),
+	email VARCHAR(50),
+	data DATE
 );
 
 -- INSERT INTO menu(tytul, plik, id) VALUES('Klasa', 'klasa', NULL);
