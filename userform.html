@@ -1,14 +1,11 @@
 <?php
 
-if (isset($_POST['wiadomosc'])) {
+if (isset($_POST['login'])) {
     global $db, $user;
     foreach ($_POST as $k => $v) {
         ${$k} = clrtxt($v);
-        print $
-}
-    $post = $_POST['wiadomosc'];
-    $sql = "INSERT INTO posty VALUES(NULL, '$post')";
-    $db->exec($sql);
+        print ${$k}."<br>";
+    }
 }
 
 if (isset($_GET['akcja'])) {
@@ -29,7 +26,7 @@ if (isset($_GET['akcja'])) {
 
 $ret = array();
 db_query('SELECT * FROM posty', $ret);
-echo '<h3>Wiadomości</h3>';
+echo '<h3>Użytkownik</h3>';
 echo '<ul>';
 foreach ($ret as $k => $t) {
     echo '<li>';
@@ -40,30 +37,21 @@ foreach ($ret as $k => $t) {
 echo '</ul>';
 ?>
 
-<form action="?id=formularz" method="POST" name="dane" id="dane">
+<form action="?id=userform" method="POST" name="dane" id="dane">
     <input type="hidden" name="id_user" value="10">
     <div class="form-group">
-        <label for="login">Wiadomość:</label>
-        <textarea name="wiadomosc" id="wiadomosc" class="form-control" rows="3"></textarea>
-        <form action="formularz.php" method="POST" name="dane" id="dane">
-                    <input type="hidden" name="id_user" value="10">
-                    <div class="form-group">
-                        <label for="login">Login:</label>
-                        <input type="text" name="login" id="login" class="form-control" maxlength="15">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" id="email" class="form-control">
-                    </div>
-                    <div class="form-group">
-                        <label for="haslo">Hasło:</label>
-                        <input type="password" name="haslo" id="haslo" class="form-control">
-                    </div>
-                    <label>Wybierz płeć:</label>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="plec" value="m" id="radio1">
-                        <label class="form-check-label" for="radio1">Mężczyzna</label>
-                    </div>
+        <div class="form-group">
+            <label for="login">Login:</label>
+            <input type="text" name="login" id="login" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="haslo">Hasło:</label>
+            <input type="password" name="haslo" id="haslo" class="form-control">
+        </div>
     </div>
     <input type="submit" value="Wyślij" class="btn btn-primary">
 </form>
