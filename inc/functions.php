@@ -51,3 +51,4 @@ function get_koms($kom) {
 		echo "<p class=\"text-info\">$k</p>";
 	}
 }
+?>

@@ -1,13 +1,26 @@
 <?php
+ini_set('sesion.save_path', 'sesje');
+
 class User {
 	var $dane = array();
 	var $keys = array('id', 'login', 'haslo', 'email', 'data');
+
+  function __construct() {
+      if (!isset($_SESSION)) session_start();
+  }
+  }
+  function is_login($login) {
+    $qstr='SELECT id FROM users WHERE login=\''.$login.'\' LIMIT 1';
+    if (Baza::db_query($qstr)) return true;
+    return false;
+  }
+
 	function is_user($sid, $login=NULL, $haslo=NULL) {
 		if (!empty($login)) {
-				$qstr='SELECT * FROM users WHERE login = \''.$login.'\' AND haslo = \''.sha1($haslo).'\' LIMIT 1';
+				$q='SELECT * FROM users WHERE login = \''.$login.'\' AND haslo = \''.sha1($haslo).'\' LIMIT 1';
 		} else return false;
-		$ret=array();
-		db_query($qstr,$ret);
+
+		Baza::db_query($q);
 		if (!empty($ret[0])) {
 			$this->dane=array_merge($this->dane,$ret[0]);
 			$sid=sha1($this->id.$this->login.session_id());
@@ -24,15 +37,10 @@ class User {
 			return $this->dane[$k];
 		else
 			return null;
-	}
-	function is_login($login) {
-		$qstr='SELECT id FROM users WHERE login=\''.$login.'\' LIMIT 1';
-    if (db_query($qstr)) return true;
-    return false;
-	}
+
 	function is_email($email) {
 		$qstr='SELECT id FROM users WHERE email=\''.$email.'\' LIMIT 1';
-    if (db_query($qstr)) return true;
+    if (Baza::db_query($qstr)) return true;
     return false;
 	}
   function savtb() {//tab. asocjacyjna z kluczami: id#login#haslo#email#datad
@@ -40,7 +48,7 @@ class User {
 		$this->llog=time();
 		if (!$this->id) {
 			$qstr='INSERT INTO users VALUES (NULL,\''.$this->login.'\',\''.$this->haslo.'\',\''.$this->email.'\',time())';
-			$ret=db_exec($qstr);
+			$ret=Baza::db_exec($qstr);
 			$id = db_lastInsertID();
 		}
 		if ($ret) return true;
