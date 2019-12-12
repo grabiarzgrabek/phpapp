@@ -6,27 +6,26 @@ class User {
 	var $CookieName = 'phpapp';
 	var $remTime = 7200;
 	var $kom = array();
-
 	function __construct() {
 		if (!isset($_SESSION)) session_start();
 		if (isset($_COOKIE[$this->CookieName]) && !$this->id) {
 			$c = unserialize(base64_decode($_COOKIE[$this->CookieName]));
 			$this->login($c['login'], $['haslo'], false, true);
-			$this->kom[] = "Witaj {$this->login}. Zostałeś automatycznie zalogowany"
+			$this->kom[] = "Witaj {$this->login}! Zostałeś automatycznie zalogowany!";
 		}
 	}
-	function login($login, $haslo, $rem=false, $load=true) {
+	function login($login, $haslo, $rem=false, $load=true ) {
 		if ($load && $this->is_user($login, $haslo)) {
 			if ($rem) {
 				$c = base64_encode(serialize(array('login'=>$login, 'haslo'=>$haslo)));
 				$this->kom[] = $c;
-				$a = setcookie($this->CookieName, $c, time()+$this->remTime, '/', 'localhost', false,  true);
+				$a = setcookie($this->CookieName, $c, time()+$this->remTime, '/', 'localhost', false, true);
 				if ($a) $this->kom[] = 'Zapisano ciasteczko.';
-				$this->kom[] = "Witaj $login. Zostałeś zalogowany."
+				$this->kom[] = "Witaj $login! Zostałeś zalogowany.";
 				return true;
 			}
 		} else {
-			$this->kom[] = 'Błędny login lub hasło';
+			$this->kom[] = 'Błędny login lub hasło!';
 			return false;
 		}
 	}
