@@ -79,4 +79,5 @@ class User {
 		return false;
 	}
 }
+// github.com/lo1cgsan/phpapp
 ?>
