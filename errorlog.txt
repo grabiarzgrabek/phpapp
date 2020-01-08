@@ -36,3 +36,6 @@
 [06-Dec-2019 09:34:35 Europe/Warsaw] PHP Warning:  session_start(): open(/var/lib/php/sessions/sess_fbivg2t0knfsi6k92k1lua68n0, O_RDWR) failed: Brak dostępu (13) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 9
 [06-Dec-2019 09:34:35 Europe/Warsaw] PHP Warning:  session_start(): Failed to read session data: files (path: /var/lib/php/sessions) in /home/kl2ag1/public_html/phpapp/inc/users.php on line 9
 [06-Dec-2019 09:34:35 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/kl2ag1/public_html/phpapp/userlogin.html on line 10
+[03-Jan-2020 09:36:52 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 60
+[03-Jan-2020 09:39:21 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 60
+[03-Jan-2020 09:49:45 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 60
