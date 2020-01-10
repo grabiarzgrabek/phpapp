@@ -39,3 +39,45 @@
 [03-Jan-2020 09:36:52 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 60
 [03-Jan-2020 09:39:21 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 60
 [03-Jan-2020 09:49:45 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 60
+[10-Jan-2020 10:08:37 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:08:38 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:08:39 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:08:39 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:08:40 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:08:40 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:12:11 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:12:12 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:12:12 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:12:12 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:12:13 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:12:58 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:13:20 Europe/Warsaw] PHP Parse error:  syntax error, unexpected ':', expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 33
+[10-Jan-2020 10:14:07 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'data' (T_STRING), expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 34
+[10-Jan-2020 10:14:08 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'data' (T_STRING), expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 34
+[10-Jan-2020 10:15:19 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'Baza' (T_STRING) in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 32
+[10-Jan-2020 10:15:19 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'Baza' (T_STRING) in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 32
+[10-Jan-2020 10:15:20 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'Baza' (T_STRING) in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 32
+[10-Jan-2020 10:18:47 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'data' (T_STRING), expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 34
+[10-Jan-2020 10:21:11 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'data' (T_STRING), expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 34
+[10-Jan-2020 10:21:12 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'data' (T_STRING), expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 34
+[10-Jan-2020 10:21:12 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'data' (T_STRING), expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 34
+[10-Jan-2020 10:21:13 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'data' (T_STRING), expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 34
+[10-Jan-2020 10:21:13 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'data' (T_STRING), expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 34
+[10-Jan-2020 10:30:06 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/userlogin.html on line 29
+[10-Jan-2020 10:30:31 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/userlogin.html on line 30
+[10-Jan-2020 10:30:35 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/userlogin.html on line 30
+[10-Jan-2020 10:30:37 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/userlogin.html on line 30
+[10-Jan-2020 10:30:39 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/userlogin.html on line 30
+[10-Jan-2020 10:30:41 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/userlogin.html on line 30
+[10-Jan-2020 10:30:42 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/userlogin.html on line 30
+[10-Jan-2020 10:30:54 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/userlogin.html on line 30
+[10-Jan-2020 10:30:54 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/userlogin.html on line 30
+[10-Jan-2020 10:30:55 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/userlogin.html on line 30
+[10-Jan-2020 10:30:55 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/userlogin.html on line 30
+[10-Jan-2020 10:30:55 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/userlogin.html on line 30
+[10-Jan-2020 10:30:55 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/userlogin.html on line 30
+[10-Jan-2020 10:30:56 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/userlogin.html on line 30
+[10-Jan-2020 10:30:56 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/userlogin.html on line 30
+[10-Jan-2020 10:31:27 Europe/Warsaw] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/kl2ag1/public_html/phpapp/userlogin.html on line 30
+[10-Jan-2020 10:32:26 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'data' (T_STRING), expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 34
+[10-Jan-2020 10:32:52 Europe/Warsaw] PHP Parse error:  syntax error, unexpected 'data' (T_STRING), expecting ',' or ')' in /home/kl2ag1/public_html/phpapp/wiadomosci.html on line 34
